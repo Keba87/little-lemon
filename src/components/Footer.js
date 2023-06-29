@@ -1,6 +1,6 @@
 import logo from "../assets/logo vertical.png";
 
-function Footer() {
+const Footer = () => {
     return (
         <footer>
             <div>

@@ -1,4 +1,4 @@
-function Main() {
+const Main = () => {
     return (
         <main>
             <h1>The Main</h1>
