@@ -1,8 +1,13 @@
  
+ .nav {
+  background: #fff;
+  height: 130px;
+}
+
  .navbar {
     background: #fff;
+    max-width: 960px;
     height: 130px;
-    max-width: 1440px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -23,8 +28,6 @@
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 50px;
-    padding-left: 50px;
   }
   
   .navbar-logo {
@@ -48,7 +51,7 @@
   }
   
   .nav-item {
-    padding: 1rem;
+    padding: 0.5rem;
     height: 80px;
     border-bottom: 2px solid transparent;
   }
@@ -127,16 +130,13 @@
     }
   
     .navbar-logo {
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      padding: 1rem;
     }
   
     .menu-icon {
       display: block;
       position: absolute;
-      top: 0;
+      top: 15%;
       right: 0;
       transform: translate(-100%, 60%);
       font-size: 1.8rem;

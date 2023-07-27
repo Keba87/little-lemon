@@ -8,7 +8,6 @@
   body {
     font-family: "Markazi Text", "Karla", serif;;
     background: #fff;
-    color: #222;
     line-height: 1.5;
     font-size: 0.875rem;
   }
@@ -37,7 +36,6 @@
   }
   p {
     margin-bottom: 1.25rem;
-    color: #000000;
   }
   @media screen and (min-width: 800px) {
     h1 {
