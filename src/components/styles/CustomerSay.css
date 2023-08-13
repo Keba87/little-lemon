@@ -1,0 +1,28 @@
+.customerSaySection {
+    background-image: url(../../assets/testimonial_back.PNG);
+    background-repeat: repeat;
+    background-color: #495E57; 
+}
+
+.textCenter {
+    text-align: center;
+    padding-top: 3rem;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 0;
+    flex-wrap: wrap;
+    gap: 0.1rem;
+}
+
+@media screen and (max-width:830px) {
+    .testimonials {
+        justify-content: center;
+    }
+}

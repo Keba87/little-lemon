@@ -12,7 +12,7 @@ function Specials() {
             description: "The famous Greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons."
         },
         {
-            imgSrc: require('../assets/bruchetta.svg'),
+            imgSrc: require('../assets/bruchetta.jpg'),
             title: "Bruchetta",
             price: "$ 5.99",
             description: "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil."

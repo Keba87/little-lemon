@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import CallToAction from '../components/CallToAction';
 import Specials from '../components/Specials';
+import CustomerSay from '../components/CustomersSay';
+
 
 
 function HomePage() {
@@ -8,6 +10,7 @@ function HomePage() {
         <Fragment>
             <CallToAction />
             <Specials />
+            <CustomerSay />
         </Fragment>
 )}
 
