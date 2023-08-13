@@ -17,7 +17,6 @@
   h3,
   h4 {
     letter-spacing: 0.1rem;;
-    text-transform: capitalize;
     line-height: 1.25;
     margin-bottom: 0.75rem;
     font-family: "Karla";
@@ -37,7 +36,7 @@
   p {
     margin-bottom: 1.25rem;
   }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 810px) {
     h1 {
       font-size: 4rem;
     }

@@ -1,0 +1,48 @@
+.specialsSection {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.specialsTextButton {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.specialsTextButton h2 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+@media screen and (max-width:990px) {
+    .specialsSection {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width:938px) {
+    .cards {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 623px) {
+    .specialsTextButton {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+}
