@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './styles/CustomerSay.css';
 import Testimonial from './Testimonial';
 
@@ -26,23 +26,21 @@ const CustomerSay = () => {
         }
     ];
     return (
-        <Fragment>
-            <section className='customerSaySection'>
-                <h2 className="textCenter">Testimonials</h2>
-                <div className='container'>
-                    <div className="testimonials">
-                        {testimonialsData.map((testimonial, index) =>(
-                            <Testimonial 
-                                key={index}
-                                quote={testimonial.quote}
-                                imgSrc={testimonial.imgSrc}
-                                author={testimonial.author}
-                            />
-                        ))}
-                    </div>
+        <section className='customerSaySection'>
+            <h2 className="textCenter">Testimonials</h2>
+            <div className='customerSay-container'>
+                <div className="testimonials">
+                    {testimonialsData.map((testimonial, index) =>(
+                        <Testimonial 
+                            key={index}
+                            quote={testimonial.quote}
+                            imgSrc={testimonial.imgSrc}
+                            author={testimonial.author}
+                        />
+                    ))}
                 </div>
-            </section>
-        </Fragment>
+            </div>
+        </section>
     );
 };
 

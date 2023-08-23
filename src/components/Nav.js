@@ -1,4 +1,4 @@
-import React, {Fragment, useState} from 'react';
+import React, {useState} from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import Logo from '../assets/Logo.svg';
@@ -15,7 +15,7 @@ const Nav = () => {
     const closeMobileMenu = () => setClick(false);
 
     return (
-        <Fragment>
+        <header>
             <div className="nav">
                 <nav className="navbar">
                     <div className="navbar-container container">
@@ -60,7 +60,7 @@ const Nav = () => {
                     </ul>
                 </nav>
             </div>
-        </Fragment>
+        </header>
     )
 }
 

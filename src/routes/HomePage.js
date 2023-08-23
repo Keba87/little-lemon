@@ -1,16 +1,10 @@
 import React, { Fragment } from 'react';
-import CallToAction from '../components/CallToAction';
-import Specials from '../components/Specials';
-import CustomerSay from '../components/CustomersSay';
-
-
+import Main from '../components/Main';
 
 function HomePage() {
     return (
         <Fragment>
-            <CallToAction />
-            <Specials />
-            <CustomerSay />
+            <Main />
         </Fragment>
 )}
 
