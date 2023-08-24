@@ -16,10 +16,10 @@ const Chicago = () => {
                 <div className='chicago-images-container'>
                     <div className="mosaic">
                         <div className="mosaic__item"> 
-                            <img className='chicago-image-top' src={require('../assets/Mario and Adrian b.jpg')} />
+                            <img className='chicago-image-top' src={require('../assets/Mario and Adrian b.jpg')} alt='Mario and Adrian photo' />
                         </div>
                         <div className="mosaic__item">
-                            <img className='chicago-image-bottom' src={require('../assets/Mario and Adrian A.jpg')} />
+                            <img className='chicago-image-bottom' src={require('../assets/Mario and Adrian A.jpg')} alt='Mario and Adrian photo' />
                         </div>
                     </div>      
                 </div>

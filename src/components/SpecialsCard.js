@@ -13,7 +13,6 @@ function SpecialsCard(props) {
             <div className="card__descr-wrapper">
                 <div>
                     <h4 className="card__title"> {title} <span className="price"> {price} </span></h4> 
-                    
                 </div>
                 <p className="card__descr">{description}</p>
                 <div className="card__links">
